@@ -6,10 +6,10 @@ Let me tell you how to work this it.
 One common output of program:
 
 =......=
-           2020
+  2020
 =......=
 =...=
-   February
+ February
 =...=
 1 8.4699%
 2 8.7432%
@@ -27,7 +27,7 @@ Number betwen two short equals sign rows is month.
 2 8.7432% mean that 
 2nd Feb of 2020 at 00:00 will be 8.7432% of 2020 year. 
 
-If smf wrote after "%" for example 2 9.0000% 22:34 read like:
+If smf is written after "%", for example 2 9.0000% 22:34 read it like:
 2nd Feb of 2020 at 22:34 will be 9% of 2020 year. 
 
 So simply, how you can see!
