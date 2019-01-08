@@ -24,10 +24,9 @@ One common output of program:
 Number betwen two long equals sign rows is year. 
 Number betwen two short equals sign rows is month. 
 
-2 8.7432% mean that 
-2nd Feb of 2020 at 00:00 will be 8.7432% of 2020 year. 
+2 8.7432% means that, 2nd Feb of 2020 at 00:00 will be 8.7432% of 2020 year. 
 
-If smf is written after "%", for example 2 9.0000% 22:34 read it like:
+If smf is written after "%", for example 2 9.0000% 22:34 read it like:\n
 2nd Feb of 2020 at 22:34 will be 9% of 2020 year. 
 
 So simply, how you can see!
