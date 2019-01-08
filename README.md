@@ -5,12 +5,12 @@ It's fun project for myself, so...
 Let me tell you how to work this it.
 One common output of program:
 ```
-=......=
-  2020
-=......=
-=...=
- February
-=...=
+========================
+          2020
+========================
+============
+   February
+============
 1 8.4699%
 2 8.7432%
 2 9.0000% 22:34
