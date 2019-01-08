@@ -4,7 +4,7 @@ This "program" will show how much percent has passed from the beginning of the y
 It's fun project for myself, so...
 Let me tell you how to work this it.
 One common output of program:
-/*
+
 ========================
            2020
 ========================
@@ -20,7 +20,7 @@ One common output of program:
 6 9.8361%
 6 10.0000% 14:24
 ...
-*/
+
 Number betwen two long equals sign rows is year. 
 Number betwen two short equals sign rows is month. 
 
