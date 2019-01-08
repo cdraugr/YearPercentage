@@ -1,8 +1,11 @@
 # YearPercentage
 This "program" will show how much percent has passed from the beginning of the year on a specific date.
 
-It's fun project for myself, so...
-
+## install & launch
+```bash
+git clone https://github.com/cdraugr/Year_Percentage ~/YearPercentage
+cd ~/YearPercentage bash ./start.sh
+```
 Let me tell you how to work this it.
 
 One common output of program:
