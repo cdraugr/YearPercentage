@@ -4,7 +4,7 @@ This "program" will show how much percent has passed from the beginning of the y
 ## install & launch
 ```bash
 git clone https://github.com/cdraugr/Year_Percentage ~/YearPercentage
-cd ~/YearPercentage bash ./start.sh
+cd ~/YearPercentage && bash ./start.sh
 ```
 You may also want to set an alias to run it from everywhere. 
 ```bash
