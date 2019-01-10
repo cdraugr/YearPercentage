@@ -13,7 +13,7 @@ alias YearPercentage='bash ~/YearPercentage/start.sh'
 
 ## how to work with
 
-One common output of program:
+One common output of the program:
 ```
 ========================
           2020
