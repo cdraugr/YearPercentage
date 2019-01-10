@@ -8,7 +8,7 @@ cd ~/YearPercentage && bash ./start.sh
 ```
 You may also want to set an alias to run it from everywhere. 
 ```bash
-alias YearPercentage='bash ~/YearPercentage/YearPercentage.sh'
+alias YearPercentage='bash ~/YearPercentage/start.sh'
 ```
 
 ## how to work with
