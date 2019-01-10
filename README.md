@@ -11,7 +11,7 @@ You may also want to set an alias to run it from everywhere.
 alias YearPercentage='bash ~/YearPercentage/YearPercentage.sh'
 ```
 
-## how to work
+## how to work with
 
 One common output of program:
 ```
@@ -36,7 +36,7 @@ One common output of program:
 
 2 8.7432% means that, 2nd Feb of 2020 at 00:00 will be 8.7432% of 2020 year. 
 
-If smf is written after "%", for example 2 9.0000% 22:34, read it like:
+If smf is written after `'%'`, for example 2 9.0000% 22:34, read it like:
 
 2nd Feb of 2020 at 22:34 will be 9% of 2020 year. 
 
