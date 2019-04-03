@@ -13,5 +13,5 @@ def main() -> None:
         ft_print_years(current_month, current_year)
 
 
-if __init__ == "__main__":
+if __name__ == "__main__":
     main()
