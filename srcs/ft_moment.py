@@ -27,7 +27,7 @@ def ft_print_time(day: int, percent: int, year: int) -> None:
     date = ft_month(12, year) * percent / 100
     answer = ft_time(date)
     if answer != "00:00":
-        print(f"{day} {percent}.0000% {ft_time(date)}")
+        print(f"{day:2} {percent}.00000% {ft_time(date)}")
 
 
 def ft_print_month(month: int) -> None:
@@ -94,4 +94,4 @@ def ft_year(length: int, month: int, year: int) -> None:
             if i - value:
                 ft_print_time(i - value, int(i * 100 / length), year)
 
-        print(f"{i + 1 - value} {(i * 100 / length):.4f}%")
+        print(f"{(i + 1 - value):2} {(i * 100 / length):.5f}%")
