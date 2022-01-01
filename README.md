@@ -1,48 +1,36 @@
 # YearPercentage
-This "program" will show how much percent has passed from the beginning of the year on a specific date.
+This script will show how much percent has passed from the beginning of the year on a specific date.
 
 ## install & launch
 ```bash
 git clone https://github.com/cdraugr/Year_Percentage ~/YearPercentage
-cd ~/YearPercentage && bash ./start.sh
-```
-You may also want to set an alias to run it from everywhere. 
-```bash
-alias YearPercentage='bash ~/YearPercentage/start.sh'
+cd ~/YearPercentage
+./main.py -h  # main is executable but you still can use python3 to run it
 ```
 
 ## how to work with
 
 One common output of the program:
 ```
-========================
-          2020
-========================
-============
+==============
    February
-============
-1 8.4699%
-2 8.7432%
-2 9.0000% 22:34
-3 9.0164%
-4 9.2896%
-5 9.5628%
-6 9.8361%
-6 10.0000% 14:24
+==============
+01 08.46995%
+02 08.74317%
+02 09.00000% 22:33
+03 09.01639%
+04 09.28962%
+05 09.56284%
+06 09.83607%
+06 10.00000% 14:24
 ...
 ```
-* Number betwen two long equals sign rows is a year. 
-* Number betwen two short equals sign rows is a month. 
+* Number between two short equals sign rows is a month (wow).
 
-2 8.7432% means that, 2nd Feb of 2020 at 00:00 will be 8.7432% of 2020 year. 
+`02 08.74317%` means that, 2nd Feb at 12:00am (midnight) will be 8.74317% of year.
 
-If smf is written after `'%'`, for example 2 9.0000% 22:34, read it like:
+If smf is written after `'%'`, for example `02 09.0000% 22:33`, read it like:
 
-2nd Feb of 2020 at 22:34 will be 9% of 2020 year. 
+2nd Feb at 22:33 will be 9% of a year.
 
 So simply, how you can see!
-
-## ! Warning !
-At this project I tell that year is 365 (366) days (without 1/4+)
-
-Thanks for having interes to this project. Good luck
