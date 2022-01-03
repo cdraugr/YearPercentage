@@ -5,9 +5,13 @@ import requests
 
 from datetime import datetime
 
+from src.parse_arguments import parse
+
 
 def main():
-    year, month = 2022, 5
+    arguments = parse()
+
+    year, month = arguments.year, arguments.month
     url = 'https://api.vk.com/method/wall.post'
     params = {
         'owner_id': -159352562,
@@ -18,7 +22,7 @@ def main():
         'publish_date': None,
     }
 
-    result = os.popen(f'./main.py {year} {month}').read()
+    result = os.popen(f'./main.py {year} {month} -a {arguments.accuracy}').read()
 
     result = result.split('\n')[3:]
     for post in [day.split() for day in result]:
